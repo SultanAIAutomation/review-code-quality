@@ -1,0 +1,6 @@
+interface:
+  display_name: "Code Review and Improvement"
+  short_description: "Review clarity, error handling, and duplication by impact"
+  default_prompt: "Use $review-code-quality to review the specified code and report findings in order of importance."
+policy:
+  allow_implicit_invocation: true
